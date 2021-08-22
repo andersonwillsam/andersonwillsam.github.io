@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Title-->
+    <title>Paracord Eagle</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/EagleIcon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+    <br/>
+    <!--Banner-->
+    <div class="banner">
+      <div class="bannertext">
+        Paracord Eagle
+      </div> 
+    </div> 
+
+    <br/>
+
+    <div class="menu">
+      <br/>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="prouducts.html">Prouducts</a></li>
+      </ul>
+      <br/>
+    </div>
+
+    <div class="content">
+      <div class="text">
+        <h3>
+        Directions:<br/>
+        1. Find your desired Paracord items on prouducts page.<br/>
+        2. Select them here and then click confirm.<br/>
+        3. A email will pop up all ready to send.<br/>
+        4. Send the email and I will confirm your order and get you prouduct shiped to the address you send.<br/> 
+        5. Pay me through mail and enjoy!  :-)
+        </h3>
+      </div>
+      <form id="form">
+          <label for="Name">Name</label>
+          <input type="text" id="Name">
+          <label for="Email">Email</label>
+          <input type="text" id="Email">
+          <label for="Address">Address</label>
+          <input type="text" id="Address">
+          <label for="ProuductNum">Prouduct Id Number</label>
+          <input type="text" id="ProuductNum">
+          <input type="submit" onclick="order();" value="Confirm Order"/>
+          <script>
+            function order() {
+              var name = document.getElementById("Name").value;
+              var email = document.getElementById("Email").value;
+              var address = document.getElementById("Address").value;
+              var prouduct = document.getElementById("ProuductNum").value;
+              var message = "Order: " + name + ", " + email + ", " + address + ", " + prouduct + "%250D%250A-Coments Below This Line Only ------";
+
+              alert("Your Order: " + "\n********************" + "\nName: " + name + "\nEmail: " + email + "\nAddress: " + address + "\nProuduct: "  + prouduct + "\n********************");
+              window.location.href = "mailto: andersonwillsam@gmail.com?subject=Paracord Eagle Order&body=Order: " + name + ", " + email + ", " + address + ", " + prouduct + "%0A-----------------Comments Below This Line Only-----------------";
+            }
+          </script>
+      </form>
+
+      <!--Heading-->
+      
+    <div>
+    
+    <br/>
+</body>
+
+</html>
