@@ -8,10 +8,9 @@
   border-style: solid;
   border-radius: 25px;
   border-width: 0px;
-  background-image: url(img/CircitsBackground.jpg);
+  background-image: url(img/EagleBackgroundPic.jpg);
   height: 350px;
 }
-
 
 .bannertext {
   font-size: 80px;
@@ -21,12 +20,12 @@
   border-radius: 25px;
   border-width: 0px;
   float: left;
-  width: 20%;
+  width: auto;
   background-color: #FFB703;
   padding: 20px;
 }
 
-ul {
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -59,15 +58,25 @@ li a:hover {
   float: left;
 }
 
-/*Header*/
-.header {
-  background-color: #FFB703;
-  padding: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+/*Menu*/
+.menu2 {
+  text-align: center;
+  color: black;
   border-radius: 25px;
-  float: right;
-  width: 700px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #FFB703;
+  width: 200px;
+  float: left;
+}
+
+/*Menu*/
+.menus {
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+  width: 200px;
+  float: left;
 }
 
 .content {
@@ -80,21 +89,15 @@ li a:hover {
   width: 720px;
 }
 
-.text {
-  background-color: #FFB703;
-  padding: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 25px;
-  float: right;
-  width: 700px;
-}
-
 body {
   background-color: #023047;
   width: 1000px;
   margin: auto;
   font-family: 'Odibee Sans', cursive;
+}
+
+a {
+  color: #111931;
 }
 
 input[type=text], select {
@@ -130,8 +133,4 @@ form {
   border-radius: 25px;
   float: right;
   width: 700px;
-}
-
-a {
-  color: #023047;
 }
