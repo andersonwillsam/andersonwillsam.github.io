@@ -5,15 +5,8 @@
 	<!--Title-->
 	<title>Will's Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" type="image/ico" href="img/logo.ico"/>
+	<link rel="shortcut icon" type="image/ico" href="img/Will Logo.ico"/>
 	<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
-  <script>
-    var alerted = localStorage.getItem('alerted') || '';
-    if (alerted != 'yes') {
-      alert("Welcome to this wbsite! ENJOY ;-)");
-      localStorage.setItem('alerted','yes');       
-    }
-  </script>
 </head>
 
 <body>
@@ -30,10 +23,17 @@
   <div class="menu">
     <br/>
     <ol>
+	  <p>Will's Website</p>
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="code.html">Code</a></li>
+      <li><a href="code.html">Recourses</a></li>
+    </ol>
+    <br/>
+    <ol>
+	  <p>Paracord Eagle</p>
+      <li><a href="paracord.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+	  <li><a href="prouducts.html">Products</a></li>
+	  <li><a href="shop.html">shop</a></li>
     </ol>
     <br/>
   </div>
@@ -82,5 +82,12 @@
 
 	<br/>
 </body>
+<script>
+	var alerted = localStorage.getItem('alerted') || '';
+	if (alerted != 'yes') {
+		alert("Welcome to Will's Website! ENJOY ;-)");
+		localStorage.setItem('alerted','yes');       
+	}
+ </script>
 
 </html>
