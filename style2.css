@@ -1,5 +1,4 @@
-/*Css*/
-
+/*Styles 2 Css*/
 
 /*Banner*/
 .banner {
@@ -9,9 +8,10 @@
   border-style: solid;
   border-radius: 25px;
   border-width: 0px;
-  background-image: url(img/Eagle.png);
+  background-image: url(img/CircitsBackground.jpg);
   height: 350px;
 }
+
 
 .bannertext {
   font-size: 80px;
