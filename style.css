@@ -1,3 +1,4 @@
+/*Banner*/
 .banner {
   font-size: 80px;
   text-align: center;
@@ -5,8 +6,8 @@
   border-style: solid;
   border-radius: 25px;
   border-width: 0px;
-  background-image: url(img/banner.jpg);
-  height: 400px;
+  background-image: url(img/CircitsBackground.jpg);
+  height: 350px;
 }
 
 .bannertext {
@@ -51,6 +52,27 @@ li a:hover {
   padding: 5px;
   font-size: 20px;
   background-color: #FFB703;
+  width: 200px;
+  float: left;
+}
+
+/*Menu*/
+.menu2 {
+  text-align: center;
+  color: black;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #FFB703;
+  width: 200px;
+  float: left;
+}
+
+/*Menu*/
+.menus {
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
   width: 200px;
   float: left;
 }
